@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazing Clock, a.k.a. MyFirstWebsite</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: black;
+            padding: 50px;
+            font-family: 'Dancing Script', cursive;
+            color: white;
+            height: 20px;
+            font-size: 40px;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: row;
+            height: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            color: white;
+            display: inline-block;
+            padding: 50px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        /* main {
+            /* background-color: cyan; */
+        /* }
+         */
+        
+        .currentTime {
+            /* background-color: aqua; */
+            color: blue;
+            margin: 20px;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            padding: 10px;
+            /* height: 200px; */
+        }
+        
+        .currentDate {
+            /* background-color: cyan; */
+            color: blueviolet;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            margin: 20px;
+            font-size: 50px;
+            padding: 10px;
+            /* height: 200px; */
+        }
+        
+        .ct1,
+        .cd1 {
+            color: black;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            position: relative;
+            top: 20vh;
+            bottom: 0px;
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="currentTime">
+            <p class="ct">
+                <b>
+                    THE CURRENT TIME IS:- <br>
+                    <span class="ct1" >This is the time.</span>
+                </b>
+            </p>
+
+        </div>
+        <div class="currentDate">
+            <p class="cd">
+                <b>THE CURRENT DATE IS:- <br>
+                    <span class="cd1" >This is the date.</span>
+                </b>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">
+            Copyright &#169; HarshitaJoshi:)
+        </p>
+    </footer>
+
+    <script src="pj1.js"></script>
+</body>
+
+</html>
